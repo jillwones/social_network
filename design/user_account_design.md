@@ -23,7 +23,7 @@ id | username | email_address
 -- so we can start with a fresh state.
 -- (RESTART IDENTITY resets the primary key)
 
-TRUNCATE TABLE user_accounts RESTART IDENTITY; -- replace with your own table name.
+TRUNCATE TABLE user_accounts RESTART IDENTITY CASCADE; -- replace with your own table name.
 
 -- Below this line there should only be `INSERT` statements.
 -- Replace these statements with your own seed data.
